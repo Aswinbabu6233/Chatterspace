@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "706149916837",
+    "project_id": "chatterspace-new",
+    "storage_bucket": "chatterspace-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706149916837:android:0231ea78a40dec363bed4c",
+        "android_client_info": {
+          "package_name": "com.chatterspace.chatterspace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArSAES7L8a7KtEd24Ime_CVwKOfyOG4kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
