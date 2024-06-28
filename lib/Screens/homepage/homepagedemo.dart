@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../utils/postmodel.dart';
+import '../../utils/postmodel.dart';
 import 'addphoto.dart';
 import 'profilepage.dart';
 
@@ -253,6 +253,26 @@ class _HomepagedemoState extends State<Homepagedemo> {
                               linkColor: Colors.grey,
                             ),
                           ),
+                          //comment session
+
+                          GestureDetector(
+                            onTap: () {
+                              showModalBottomSheet(
+                                context: context,
+                                builder: (context) {
+                                  return Container(
+                                    height: 400,
+                                    child: Card(),
+                                  );
+                                },
+                              );
+                            },
+                            child: Text(
+                              "view Comments",
+                              style: TextStyle(
+                                  fontSize: 16, color: Colors.grey[400]),
+                            ),
+                          )
                         ],
                       ),
                     )

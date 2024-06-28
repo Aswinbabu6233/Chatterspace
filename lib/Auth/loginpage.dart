@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 
-import '../Screens/mainpage.dart';
+import '../Screens/bottomnav/mainpage.dart';
 import 'signuppage.dart';
 
 class Loginpage extends StatefulWidget {

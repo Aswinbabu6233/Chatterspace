@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../utils/postmodel.dart';
+import '../../utils/postmodel.dart';
 
 class Searchpage extends StatefulWidget {
   const Searchpage({super.key});

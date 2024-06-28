@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
-import 'chatpage.dart';
-import 'homepagedemo.dart';
-import 'searchpage.dart';
+import '../chatpage/chatpage.dart';
+import '../homepage/homepagedemo.dart';
+import '../searchpage/searchpage.dart';
 
 class Mainpage extends StatefulWidget {
   const Mainpage({super.key});

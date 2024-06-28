@@ -1,6 +1,6 @@
 import 'package:chatterspace/Auth/loginpage.dart';
-import 'package:chatterspace/Screens/homepagedemo.dart';
-import 'package:chatterspace/Screens/mainpage.dart';
+import 'package:chatterspace/Screens/homepage/homepagedemo.dart';
+import 'package:chatterspace/Screens/bottomnav/mainpage.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';

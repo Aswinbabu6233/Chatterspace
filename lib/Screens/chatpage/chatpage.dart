@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../utils/message_model.dart';
-import '../utils/msgdetails.dart';
-import '../widgets/message_screen.dart';
+import 'message_model.dart';
+import 'msgdetails.dart';
+import '../../widgets/message_screen.dart';
 
 class Chatpage extends StatefulWidget {
   const Chatpage({super.key});

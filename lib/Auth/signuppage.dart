@@ -1,5 +1,5 @@
 import 'package:chatterspace/Auth/firebasefunction.dart';
-import 'package:chatterspace/utils/message_model.dart';
+import 'package:chatterspace/Screens/chatpage/message_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -206,12 +206,10 @@ class _SignuppageState extends State<Signuppage> {
                             borderRadius: BorderRadius.circular(50)),
                         onPressed: () async {
                           if (_state.currentState!.validate()) {
-                            if (_passwordsignup == _confirmpasswordSignup) {
-                              await AuthService().signup(
-                                  email: _emailChecker.text,
-                                  password: _passwordsignup.text,
-                                  context: context);
-                            }
+                            await AuthService().signup(
+                                email: _emailChecker.text,
+                                password: _passwordsignup.text,
+                                context: context);
                           }
                         },
                         child: Text(
